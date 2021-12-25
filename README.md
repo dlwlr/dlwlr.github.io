@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 </head>
 
-<body>	
+
+<body background="背景.jpg">
 <p><a href="Untitled-1.html">实验1-1</a></p>
 <p><a href="Untitled-2.html">实验1-2</a></p>
 <p><a href="Untitled-3.html">实验1-3</a></p>
