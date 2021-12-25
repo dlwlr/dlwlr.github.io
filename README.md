@@ -25,5 +25,7 @@
 <p><a href="Untitled-18.html">实验4-2</a></p>
 <p><a href="Untitled-19.html">实验5-1</a></p>
 <p><a href="Untitled-20.html">实验6-1</a></p>
+<p><a href="Untitled-21.html">实验7-1</a></p>
+<p><a href="Untitled-22.html">实验7-2</a></p>
 </body>
 </html>
