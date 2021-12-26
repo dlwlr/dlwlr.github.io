@@ -1,34 +1,252 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>无标题文档</title>
-</head>
+    <title>朱彬的网页</title>
+	<style>
+.big_box{width: 1000px;height:400px;box-shadow: 10px 10px 5px #888888}
+.left_box{float: left;margin-top: 150px}/* 左边模块左浮动 */
+.right_box{float: right;}/* 右边模块右浮动 */
+</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
 
-			
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <!-- font-awesome icons -->
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+    <!-- //Custom Theme files -->
+    <!-- online-fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
+    <!-- //online-fonts -->
+</head>
 <body>
-<section class="w3l-index3" id="about">
-    <div class="midd-w3 py-5">
-        <div class="container py-lg-5 py-md-3">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="position-relative">
-                        <img src="abc.jpg" alt="个人" class="radius-image img-fluid" width="200" height="400">
-                    </div>
-                </div>
-                <div class="col-lg-8 mt-lg-0 mt-5">
-                    <h5 class="title-small mb-2">dlwlr</h5>
-                    <h3 class="title-big">个人简介</h3>
-                    <p class="mt-4">姓名：朱彬</p>
-					<p class="mt-4">学院：经济管理学院</p>
-					<p class="mt-4">班级：数据科学与大数据技术2019-1</p>
-					<p class="mt-4">学号：2019041011000122</p>
-					<p class="mt-4">爱好：篮球，音乐</p>
-					<p class="mt-4"></p>
+    <div class="sidenav">
+		<div class="side_top">
+			<img src="a.jpg" alt="news image" class="img-fluid navimg">
+			<h1> 大三学生<br>篮球和hiphop</h1>
+		</div>
+		<!-- header -->
+		<header>
+			<div class="container-fluid px-lg-5 ">
+				<nav class="mnu mx-auto">
+                    <label for="drop" class="toggle">Menu</label>
+                    <input type="checkbox" id="drop">
+						<ul class="menu">
+							<li class="active"><a href="index.html">主页</a></li>
+							 <li class="mt-sm-3"><a href="#about" class="scroll">自我介绍</a></li>
+							 <li class="mt-sm-3"><a href="#gallery" class="scroll">喜欢的偶像</a></li>
+							<li class="mt-sm-3"><a href="#services" class="scroll">我的爱好</a></li>
+							<li class="mt-sm-3"><a href="#news" class="scroll">座右铭</a></li>
+                            <li class="mt-sm-3"><a href="#contact" class="scroll">联系我</a></li>
+                        </ul>
+				</nav>
+			</div>
+		</header>
+    </div>
+    <div class="main" id="about">
+        <div class="banner-text-w3ls">
+            <div class="container">
+                <div class="mx-auto text-left">
+                    <h2>篮球和说唱爱好者
+					<br>霉粉</h2>
+					<p class="banp mt-5">我是朱彬，是经管学院大数据专业19届的一名学生，通过下面你大概可以对我有所了解。</p>
                 </div>
             </div>
         </div>
+		 <!-- Gallery -->
+    <section class="gallery" id="gallery">
+        <div class="container py-lg-5">
+           <h3 class="w3_head mb-5">My idol</h3>
+			 <div class="row news-grids mt-lg-5 mt-4 text-center">
+                <div class="col-md-6 gal-img">
+                    <a href="#gal1"><img src="d.jpg" alt="news image" class="img-fluid"></a>
+                </div>
+                <div class="col-md-6 proj-1 gal-img">
+                    <a href="#gal2"><img src="c.jpg" alt="news image" class="img-fluid"></a>
+                </div>
+                <div class="col-md-6 mt-5 gal-img">
+                    <a href="#gal3"><img src="e.jpg" alt="news image" class="img-fluid"></a>
+                </div>
+                <div class="col-md-6 mt-5 gal-img">
+                    <a href="#gal4"><img src="f.jpg" alt="news image" class="img-fluid"></a>
+				 </div>
+                
+				 
+		
+
+	 
+      
+<!-- services -->
+			<section class="slide-wrapper" id="services">
+                    <div class="services">
+					<h3 class="w3_head mb-5">我的爱好</h3>
+					<div class="row service_w3top mt-5">
+                                <div class="col-lg-6">
+                                    <div class="d-flex services-box">
+                                        <div class="icon">
+                                            <span class="fa fa-pencil"></span>
+                                        </div>
+                                        <!-- .Icon ends here -->
+                                        <div class="service-content">
+                                            <h4>篮球</h4>
+                                            <p>
+                                               初中开始打的，现在还在坚持的爱好
+                                            </p>
+                                        </div>
+                                        <!-- .Service-content ends here -->
+                                    </div>
+                                    <!-- .Services-box ends here -->
+
+                                    <div class="d-flex services-box">
+                                        <div class="icon">
+                                            <span class="fa fa-rocket"></span>
+                                        </div>
+                                        <!-- .Icon ends here -->
+                                        <div class="service-content">
+                                            <h4>说唱</h4>
+                                            <p>
+                                               大一开始听说唱，真的好听
+                                            </p>
+                                        </div>
+                                        <!-- .Service-content ends here -->
+                                    </div>
+                                    <!-- .Services-box ends here -->
+                                </div>
+                                <!-- .Col ends here -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex services-box">
+                                        <div class="icon">
+                                            <span class="fa fa-laptop"></span>
+                                        </div>
+                                        <!-- .Icon ends here -->
+                                        <div class="service-content">
+                                            <h4>游戏</h4>
+                                            <p>
+                                               偶尔玩，娱乐方式
+                                            </p>
+                                        </div>
+                                        <!-- .Service-content ends here -->
+                                    </div>
+                                    <!-- .Services-box ends here -->
+
+                                    <div class="d-flex services-box">
+                                        <div class="icon">
+                                            <span class="fa fa-paint-brush"></span>
+                                        </div>
+                                        <!-- .Icon ends here -->
+                                        <div class="service-content">
+                                            <h4>悬疑剧</h4>
+                                            <p>
+                                               悬疑剧太上头了，根本停不下来
+                                            </p>
+                                        </div>
+                                        <!-- .Service-content ends here -->
+                                    </div>
+                                    <!-- .Services-box ends here -->
+                                </div>
+                                <!-- .Col ends here -->
+                            </div>
+                            <!-- .Row ends here -->
+                        <!-- .Container ends here -->
+                    </div>
+                    <!-- .Services ends here -->
+                </section>
+			<!-- //services -->
+
+		<!-- news -->
+       <div class="news" id="news">
+		<div class="text-left">
+			<h3 class="w3_head mb-5">座右铭</h3>
+		</div>
+			<div class="row news-grids">
+				<div class="col-lg-6 news-grids-left">
+					<div class="news_top">
+						<img src="d.jpg" alt="news image" class="img-fluid">
+						<h4>学习方面</h4>
+						<p class="newsp">他日若遂凌云志，敢笑黄巢不丈夫</p>
+					</div>
+				</div>
+				<div class="col-lg-6 news-grids-middle">
+					<div class="news_top">
+						<img src="c.jpg" alt="news image" class="img-fluid">
+						<h4>生活方面</h4>
+						<p class="newsp"></p>
+					</div>
+				</div>
+				<div class="col-lg-6 news-grids-right">
+					<div class="news_top">
+						<img src="e.jpg" alt="news image" class="img-fluid">
+						<h4>娱乐方面</h4>
+						<p class="newsp">你没爱过hiphop，怎么听得懂我说的情话</p>
+					</div>
+				</div>
+				<div class="col-lg-6 news-grids-right">
+					<div class="news_top">
+						<img src="f.jpg" alt="news image" class="img-fluid">
+						<h4>关于未来</h4>
+						<p class="newsp"></p>
+					</div>
+				</div>
+			</div>		
+		</div>
+		
+	
+
+<!-- //news -->
+<!-- contact -->
+	 <section class="wedo" id="contact">
+			<h3 class="w3_head mb-5">联系我</h3>
+		   <p class="banp mt-5"> 想和我做朋友，可以通过下列方式联系我</p>
+		   <div class="row mt-4">
+			   <div class="col-lg-7 contact_grid_right">
+					<form action="#" method="post">
+						<div class="row contact_top">
+							<div class="col-sm-6">
+								<input type="text" name="Name" placeholder="Name" required="">
+							</div>
+							<div class="col-sm-6">
+								<input type="email" name="Email" placeholder="Email" required="">
+							</div>
+						</div>	
+							
+							<textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+							<input type="submit" class="btn" value="Send Message">
+					</form>
+				</div>
+				<div class="col-lg-5 contact_grid_left">
+				<h3 class="w3_head mb-5">我的基本信息 </h3>
+					<ul class="footer-bottom-list">
+							<li>
+								<span class="fa fa-map-marker"></span>九江市彭泽县
+								<span> 中国江西省 </span>
+								
+							</li>
+							<li>
+								<span class="fa fa-envelope"></span>
+								<a href="mailto:name@example.com"> 2641049642@qq.com</a>
+							</li>
+							<li>
+								<span class="fa fa-phone"></span>+191792444667 </li>
+							<li>
+								<span class="fa fa-fax"></span> +18720071681 </li>
+							
+					</ul>
+				</div>
+			</div>
+			
+	</section>
+	 <!-- //contact -->
     </div>
-</section>
+
 </body>
 </html>
